@@ -3,8 +3,9 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background-image: url("assets/images/background_dots.jpg");
-    background-repeat: repeat-x;
+    background: url("assets/images/background_dots.jpg");
+    background-position: right;
+    background-color: lightgray;
     
   }
   
@@ -38,7 +39,8 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: midnightblue;
+    
   }
   
   h1 {
@@ -62,7 +64,7 @@ body {
     margin: 0 0 25px;
     overflow: auto;
     color: #ffffff;
-    background: #ffffff; 
+    background: gray; 
     border-bottom: 2px solid #cccccc;
     background-image: url("/assets/images/background_dots.jpg");
   }
@@ -88,7 +90,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: midnightblue;
   }
   
   nav {
@@ -101,7 +103,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color:midnightblue;
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
@@ -120,7 +122,7 @@ body {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid midnightblue;
     height: 50px;
   }
   
